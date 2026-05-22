@@ -30,6 +30,7 @@ Northern districts — the steppe belt — show the highest wheat yield potentia
 |---|---|
 | `Statistics_Quiz_1.R` | Complete R script — all analysis, plots, maps, variogram, and Kriging |
 | `whea200b_yld.tif` | Wheat yield raster from FAO GAEZ v4 (see download instructions below) |
+| `plots/` | Selected output plots as PNG screenshots |
 | `README.md` | This file |
 
 ---
@@ -148,6 +149,24 @@ Installed automatically by the script via `pacman::p_load()`:
 | 9 | Variogram | Log Wheat Yield Potential (92 Districts) |
 | 10 | Kriging map | Predicted Log Wheat Yield — Kazakhstan |
 | 11 | Kriging map | Estimation Variance (Uncertainty) |
+
+### Distribution of Wheat Yield Potential
+![Plot 1](plots/Plot1.png)
+
+### Wheat Yield Map — Kazakhstan
+![Plot 6](plots/Plot6.png)
+
+### Elevation Map — Kazakhstan
+![Plot 7](plots/Plot7.png)
+
+### Combined Terrain & Wheat Yield
+![Plot 8](plots/Plot8.png)
+
+### Variogram — Spatial Autocorrelation of Log Yield
+![Plot 9](plots/Plot9.png)
+
+### Kriging Uncertainty Map
+![Plot 11](plots/Plot11.png)
 
 ---
 
